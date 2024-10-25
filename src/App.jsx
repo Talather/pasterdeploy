@@ -21,7 +21,7 @@ function App() {
 
       {/* <BrowserRouter> */}
       <Routes>
-        <Route path="/home" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/paste" element={<Paste />} />
       </Routes>

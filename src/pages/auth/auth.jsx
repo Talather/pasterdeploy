@@ -77,7 +77,7 @@ const Auth = () => {
 
   const handleDiscordSignIn = () => {
     console.log("Continue with Facebook");
-    navigate("/home");
+    navigate("/");
     // Add your Facebook sign-in logic here}
   };
 
